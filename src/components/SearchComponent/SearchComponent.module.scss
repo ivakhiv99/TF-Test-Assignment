@@ -1,0 +1,31 @@
+.searchHeader {
+    height: 75px;
+    background-color: tomato;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed ;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0 -1px 8px 1px #333;
+}
+
+.searchInput {
+    height: 35px;
+    width: 35%;
+    min-width: 250px;
+    border: none;
+    padding: 0 10px ;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.searchBtn {
+    height: 35px;
+    width: 40px;
+    padding-top: 2px;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}

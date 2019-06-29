@@ -1,10 +1,21 @@
 import React from 'react';
+import SearchComponent from '../../components/SearchComponent';
+import OrgList from '../../components/OrgList';
+import s from './Search.module.scss';
 
-export default function Search() {
-    return (
-        <div>
-            <input type='text'/>
+class Search extends React.Component{
+    constructor(props){
+        super(props);
+    }
 
-        </div>
-    );
+    render() {
+        return (
+            <div>
+                <SearchComponent/>
+                <OrgList/>
+            </div>
+        );
+    }
 }
+
+export default Search

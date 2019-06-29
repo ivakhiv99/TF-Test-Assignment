@@ -1,0 +1,37 @@
+.orgHeader{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 75px;
+}
+.orgLogo{
+    margin-right: 20px;
+    width:64px;
+    height:64px;
+}
+.orgName{
+    font-size: 35px;
+    font-family: Arial;
+}
+
+.reposCount{
+    margin: 20px;
+    font-size: 23px;
+    font-family: Arial;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

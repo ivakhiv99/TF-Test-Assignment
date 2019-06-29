@@ -1,0 +1,21 @@
+.orgItem {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding-left: 15px;
+}
+
+.orgLogo {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.orgName {
+    font-size: 23px;
+    font-family: Arial;
+    cursor: pointer;
+
+}
