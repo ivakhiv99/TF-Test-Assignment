@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c84a9830.chunk.css",
-    "main.js": "/static/js/main.689e4c9f.chunk.js",
-    "main.js.map": "/static/js/main.689e4c9f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.1197b116.chunk.js": "/static/js/2.1197b116.chunk.js",
-    "static/js/2.1197b116.chunk.js.map": "/static/js/2.1197b116.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.89c640267253291ad867d0c3857eff62.js": "/precache-manifest.89c640267253291ad867d0c3857eff62.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c84a9830.chunk.css.map": "/static/css/main.c84a9830.chunk.css.map"
+    "main.css": "/TF-Test-Assignment/static/css/main.c84a9830.chunk.css",
+    "main.js": "/TF-Test-Assignment/static/js/main.689e4c9f.chunk.js",
+    "main.js.map": "/TF-Test-Assignment/static/js/main.689e4c9f.chunk.js.map",
+    "runtime~main.js": "/TF-Test-Assignment/static/js/runtime~main.45e7976a.js",
+    "runtime~main.js.map": "/TF-Test-Assignment/static/js/runtime~main.45e7976a.js.map",
+    "static/js/2.1197b116.chunk.js": "/TF-Test-Assignment/static/js/2.1197b116.chunk.js",
+    "static/js/2.1197b116.chunk.js.map": "/TF-Test-Assignment/static/js/2.1197b116.chunk.js.map",
+    "index.html": "/TF-Test-Assignment/index.html",
+    "precache-manifest.44b83ed85b26dd5d647e978050e18a07.js": "/TF-Test-Assignment/precache-manifest.44b83ed85b26dd5d647e978050e18a07.js",
+    "service-worker.js": "/TF-Test-Assignment/service-worker.js",
+    "static/css/main.c84a9830.chunk.css.map": "/TF-Test-Assignment/static/css/main.c84a9830.chunk.css.map"
   }
 }
