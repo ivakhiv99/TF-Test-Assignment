@@ -2,6 +2,8 @@ import React from 'react';
 import {connect} from "react-redux";
 import {URL, CLIENT_ID, CLIENT_SECRET} from "../../apiConsts";
 import s from './OrgInfo.module.scss';
+import {Link} from "react-router-dom";
+import {routes} from "../../Router";
 
 class OrgInfo extends React.Component {
     constructor(props) {

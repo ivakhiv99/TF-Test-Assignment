@@ -74,7 +74,7 @@ class MembersList extends React.Component {
                             {/*}*/}
                         </>
                         :
-                        <h2>No public members</h2>
+                        <h2 className={s.text}>No public members</h2>
                 }
             </>
             :

@@ -8,9 +8,11 @@ import history from './history';
 
 
 export const routes = {
-    user: '/user',
     search: '/search',
     organization: '/organization',
+    user: '/user',
+    userFollowers: '/user/followers',
+    userFollowings: '/user/followings',
 };
 
 export default function MyRouter() {
@@ -22,7 +24,6 @@ export default function MyRouter() {
                     <Route path={routes.user} component={User}/>
                     <Route path={routes.search} component={Search}/>
                     <Route path={routes.organization} component={Organization}/>
-                    {/*<Redirect />*/}
                     <Route component={NotFound}/>
                 </Switch>
             </Router>

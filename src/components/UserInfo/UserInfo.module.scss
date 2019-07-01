@@ -1,0 +1,39 @@
+.userHeader{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 75px;
+    z-index: 5;
+    box-shadow: 0 1px 8px 0 #333;
+}
+
+
+
+.userAvatar{
+    margin-right: 20px;
+    width:64px;
+    height:64px;
+    border-radius: 5px;
+}
+.userName{
+    font-size: 35px;
+    font-family: Arial;
+}
+.followers{
+    font-size: 23px;
+    font-family: Arial;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
