@@ -1,39 +1,65 @@
-.userHeader{
-    background-color: tomato;
+.userHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
-    position: fixed;
-    width: 100%;
-    top: 0px;
+    box-shadow:inset 0 -1px 5px 0 #333;
+    z-index: 6;
     height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: tomato;
+
+}
+
+.bottom {
+    height: 40px;
+    width: 100%;
+    margin-top: 75px;
+    background-color: tomato;
+    box-shadow: 0 0 5px 0 #333;
     z-index: 5;
-    box-shadow: 0 1px 8px 0 #333;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 40px;
 }
 
 
-
-.userAvatar{
+.userAvatar {
     margin-right: 20px;
-    width:64px;
-    height:64px;
+    width: 64px;
+    height: 64px;
     border-radius: 5px;
 }
-.userName{
+
+.userName {
     font-size: 35px;
     font-family: Arial;
 }
-.followers{
+
+.followers {
     font-size: 23px;
     font-family: Arial;
 }
-.left{
+
+.left {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.right{
+
+.right {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.bottomTitle{
+    font-weight: 300;
 }

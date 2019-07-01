@@ -11,8 +11,6 @@ class UserListItem extends React.Component {
         super(props);
         this.state = {
             isLoaded: false,
-            // followings: [],
-            // followers: [],
         };
         this.selectUser = this.selectUser.bind(this);
     }
@@ -23,7 +21,6 @@ class UserListItem extends React.Component {
             userInfo: this.props.user
         };
         this.props.getUserInfo(payload);
-        console.log(history);
         history.push(routes.user);
     }
 
@@ -36,17 +33,6 @@ class UserListItem extends React.Component {
         )
     }
 }
-
-
-// {
-//     this.state.isLoaded ?
-//         <>
-//             <button className={s.userFollow}>Followers {this.state.followers.length}</button>
-//             <button className={s.userFollow}>Following {this.state.followings.length}</button>
-//         </>
-//         :
-//         null
-// }
 
 
 function mapDispatchToProps(dispatch) {

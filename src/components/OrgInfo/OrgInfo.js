@@ -1,9 +1,7 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {URL, CLIENT_ID, CLIENT_SECRET} from "../../apiConsts";
+import {CLIENT_ID, CLIENT_SECRET} from "../../apiConsts";
 import s from './OrgInfo.module.scss';
-import {Link} from "react-router-dom";
-import {routes} from "../../Router";
 
 class OrgInfo extends React.Component {
     constructor(props) {
@@ -17,8 +15,6 @@ class OrgInfo extends React.Component {
     async getReposCount() {
         const req = await fetch(`${this.props.currentOrg.orgInfo.repos_url}?per_page=1000&page=1&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`);
         const repos = await req.json();
-        console.log(repos);
-
         this.setState({
             isLoaded: true,
             reposCount: repos.length,
@@ -32,12 +28,12 @@ class OrgInfo extends React.Component {
     render() {
         return (
             <div className={s.orgHeader}>
-                <div className={s.left}>
+                <div className={s.sideBlock}>
                     <img src={this.props.currentOrg.orgInfo.avatar_url}
                          className={s.orgLogo}/>
                     <h1 className={s.orgName}>{this.props.currentOrg.orgName}</h1>
                 </div>
-                <div className={s.right}>
+                <div className={s.sideBlock}>
                     {this.state.isLoaded ?
                         this.state.reposCount < 100 ?
                             <h3 className={s.reposCount}>Repos {this.state.reposCount}</h3>

@@ -1,23 +1,18 @@
-.lists{
+.lists {
     display: flex;
     justify-content: space-around;
-    //flex-direction: row;
 }
 
-.linkWrapper{
-    margin-top: 75px;
+.linkWrapper {
     height: 35px;
-    position: fixed;
-    top: 0;
     width: 100%;
-   text-align: center;
+    text-align: center;
     background-color: tomato;
     box-shadow: 0 3px 5px 0 #333;
     vertical-align: center;
 }
 
-.link{
-    //color: #000;
+.link {
     text-decoration: none;
     font-size: 23px;
     line-height: 35px;

@@ -10,12 +10,10 @@ class OrgListItem extends React.Component {
 
     constructor(props) {
         super(props);
-
         this.selectOrg = this.selectOrg.bind(this);
     }
 
     selectOrg() {
-        console.log('helloo there');
         const payload = {
             orgName: this.props.orgInfo.login,
             orgInfo: this.props.orgInfo

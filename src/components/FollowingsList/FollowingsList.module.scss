@@ -1,10 +1,10 @@
-.membersList {
-    padding: 125px 50px 15px;
-    width: 200px;
+.list {
+    padding: 15px;
+    width: 250px;
 }
 
 .titleWrapper{
-    margin: 115px 0;
+    margin-top: 35px;
     width: 250px;
     height: 75px;
     position: fixed;
@@ -15,7 +15,7 @@
 }
 
 .title {
-    //text-align: center;
+    margin-top: 35px;
     font-size: 25px;
     font-family: Arial;
     text-decoration: underline;
@@ -23,7 +23,7 @@
 }
 
 .text {
-    //margin-top: 115px;
+    margin-top: 35px;
     font-size: 25px;
     font-family: Arial;
     text-align: center;

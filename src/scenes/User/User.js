@@ -1,10 +1,10 @@
 import React from 'react';
-import UserInfo from "../../components/UserInfo";
-import FollowersList from "../../components/FollowersList";
-import FollowingsList from "../../components/FollowingsList";
-import s from './User.module.scss';
 import {Link} from "react-router-dom";
 import {routes} from "../../Router";
+import FollowersList from "../../components/FollowersList";
+import FollowingsList from "../../components/FollowingsList";
+import UserInfo from "../../components/UserInfo";
+import s from './User.module.scss';
 
 export default function User() {
     return (

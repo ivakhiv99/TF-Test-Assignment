@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {getOrgsList} from '../../redux/actions/getOrgsList';
-import {URL, CLIENT_ID, CLIENT_SECRET} from '../../apiConsts';
+import {URL} from '../../apiConsts';
 import s from './SearchComponent.module.scss';
 
 class SearchComponent extends React.Component {
@@ -20,7 +20,7 @@ class SearchComponent extends React.Component {
             isLoading: 'Loading...',
             orgsList: [],
         });
-        const req = await fetch(`${URL}/search/users?q=${val}+type:org&access_token=308067903547ca4e080805668fb12d4aa4fc1d32`);//client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&q=${val}+type:org`);
+        const req = await fetch(`${URL}/search/users?q=${val}+type:org&access_token=308067903547ca4e080805668fb12d4aa4fc1d32`);
         const orgsList = await req.json();
         this.props.getOrgsList({
             isLoading: 'Search your organization',
@@ -29,7 +29,6 @@ class SearchComponent extends React.Component {
     }
 
     handleInput(e) {
-        console.log(e.target.value);
         this.setState({
             inputValue: e.target.value
         });
@@ -46,16 +45,14 @@ class SearchComponent extends React.Component {
             <div className={s.searchHeader}>
                 <input className={s.searchInput} type='text' onChange={this.handleInput}/>
                 <button className={s.searchBtn} onClick={this.handleSubmit}>
-                    <img src="https://img.icons8.com/ios/30/000000/search.png"
-
-                         alt={'Search'}/>
+                    <img src="https://img.icons8.com/ios/30/000000/search.png" alt={'Search'}/>
                 </button>
             </div>
         );
     }
 }
 
-function mapDispatchToProps(dispatch) {  //OrgsListReduser
+function mapDispatchToProps(dispatch) {
     return bindActionCreators({getOrgsList: getOrgsList}, dispatch)
 }
 
