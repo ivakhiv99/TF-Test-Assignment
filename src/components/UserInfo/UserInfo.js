@@ -1,6 +1,6 @@
 import React from 'react';
-import {connect} from "react-redux";
-import {URL} from "../../apiConsts";
+import {connect} from 'react-redux';
+import {URL} from '../../apiConsts';
 import s from './UserInfo.module.scss';
 
 class UserInfo extends React.Component {
@@ -52,7 +52,7 @@ class UserInfo extends React.Component {
                     </div>
                     <div className={s.right}>
                         <a href={this.props.currentUserInfo.html_url} target='blank'>
-                            <img src="https://img.icons8.com/material-sharp/48/000000/github.png"/>
+                            <img src='https://img.icons8.com/material-sharp/48/000000/github.png'/>
                         </a>
                     </div>
                 </div>

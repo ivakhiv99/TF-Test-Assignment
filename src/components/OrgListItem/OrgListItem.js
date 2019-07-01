@@ -1,9 +1,9 @@
 import React from 'react';
-import {bindActionCreators} from "redux";
-import {getOrgInfo} from "../../redux/actions/getOrgInfo";
-import history from "../../history";
-import {routes} from "../../Router";
-import {connect} from "react-redux";
+import {bindActionCreators} from 'redux';
+import {getOrgInfo} from '../../redux/actions/getOrgInfo';
+import history from '../../history';
+import {routes} from '../../Router';
+import {connect} from 'react-redux';
 import s from './OrgListItem.module.scss';
 
 class OrgListItem extends React.Component {

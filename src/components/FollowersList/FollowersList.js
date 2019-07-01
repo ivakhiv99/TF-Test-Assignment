@@ -1,6 +1,6 @@
 import React from 'react';
-import {connect} from "react-redux";
-import UserListItem from "../UserListItem/UserListItem";
+import {connect} from 'react-redux';
+import UserListItem from '../UserListItem/UserListItem';
 import s from './FollowersList.module.scss';
 
 class FollowersList extends React.Component {

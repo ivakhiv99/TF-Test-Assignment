@@ -1,6 +1,6 @@
 import React from 'react';
-import {connect} from "react-redux";
-import {CLIENT_ID, CLIENT_SECRET} from "../../apiConsts";
+import {connect} from 'react-redux';
+import {CLIENT_ID, CLIENT_SECRET} from '../../apiConsts';
 import s from './OrgInfo.module.scss';
 
 class OrgInfo extends React.Component {
@@ -43,7 +43,7 @@ class OrgInfo extends React.Component {
                         null
                     }
                     <a href={this.props.currentOrg.orgInfo.html_url} target='blank'>
-                        <img src="https://img.icons8.com/material-sharp/48/000000/github.png"/>
+                        <img src='https://img.icons8.com/material-sharp/48/000000/github.png'/>
                     </a>
                 </div>
             </div>

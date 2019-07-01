@@ -1,7 +1,7 @@
 import React from 'react';
-import {connect} from "react-redux";
-import {URL} from "../../apiConsts";
-import UserListItem from "../UserListItem/UserListItem";
+import {connect} from 'react-redux';
+import {URL} from '../../apiConsts';
+import UserListItem from '../UserListItem/UserListItem';
 import s from './FollowingsList.module.scss';
 
 class FollowingsList extends React.Component {

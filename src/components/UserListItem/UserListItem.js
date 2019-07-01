@@ -1,9 +1,9 @@
 import React from 'react';
-import {bindActionCreators} from "redux";
-import {getUserInfo} from "../../redux/actions/getUserInfo";
-import history from "../../history";
-import {routes} from "../../Router";
-import {connect} from "react-redux";
+import {bindActionCreators} from 'redux';
+import {getUserInfo} from '../../redux/actions/getUserInfo';
+import history from '../../history';
+import {routes} from '../../Router';
+import {connect} from 'react-redux';
 import s from './UserListItem.module.scss';
 
 class UserListItem extends React.Component {
